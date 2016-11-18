@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="jquery-1.12.1.min.js"></script>
+<script type="text/javascript" src="jquery.qrcode.min.js"></script>
+</head>
+<body>
+	<div id="qrcode"></div>
+	
+	<script type="text/javascript">
+		jQuery('#qrcode').qrcode({width: 64,height: 64,text: "http://www.baidu.com"});
+	</script>
+</body>
+</html>
